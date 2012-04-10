@@ -3,7 +3,11 @@
     <type>org.netbeans.modules.php.project</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/php-project/1">
+<<<<<<< HEAD
             <name>BootcampHTML5</name>
+=======
+            <name>Bootcamp</name>
+>>>>>>> branch 'master' of github.com:JuanchiSan/Bootcamp.git
         </data>
     </configuration>
 </project>
