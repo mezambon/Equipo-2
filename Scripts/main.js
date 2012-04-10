@@ -1,6 +1,11 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 
+require([
+    'Modules/tweet',
+    'Modules/user',
+    'Modules/underscore',
+    'js/backbone',
+    ]
+
+
+)
