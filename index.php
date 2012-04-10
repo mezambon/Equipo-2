@@ -19,7 +19,7 @@
 		</div><!-- /header -->
 
 		<div class="ui-field-contain ui-body ui-br" data-role="content">
-                  
+                   
                     <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-focus " type="email" id="userID" name="userID" placeholder="Username/email" autofocus="true">
                     <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset " type="password" id="userPsw" name="userPassword" placeholder="User Password">
                 </div><!-- /content -->
