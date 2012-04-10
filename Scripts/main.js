@@ -1,11 +1,14 @@
 
-
 require([
     'Modules/tweet',
     'Modules/user',
-    'Modules/underscore',
+    'js/underscore',
     'js/backbone',
-    ]
+    'js/jquery-jqmobile'
+    ],
+    function(tweet,user){
+        
+    }
 
 
-)
+);
