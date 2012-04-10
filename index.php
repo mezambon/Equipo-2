@@ -1,11 +1,11 @@
-htt<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 <head>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta charset="UTF-8&quot;">
 	<link href="css/jquery.mobile-1.0.1.css" rel="stylesheet">
-        <script src="Scripts/js/require.js"></script>
+        <script data-main="Scripts/main.js" src="Scripts/js/require.js"></script>
 	<title></title>
 </head>
 
