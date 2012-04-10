@@ -14,13 +14,14 @@
 	<div class="ui-page ui-body-c ui-page-active" data-role="page" data-url=
 	"/test/docs/pages/page-template.html" style="min-height: 450px;" tabindex=
 	"0">
-                <br>
                 <div class="ui-header ui-bar-a" data-role="header">
 			<h1 class="ui-title">Twitter Sign-in</h1>
 		</div><!-- /header -->
 
-		<div class="ui-content" data-role="content">
-                    <input type="email" id="userID" name="userID" placeholder="Username/email">
+		<div class="ui-field-contain ui-body ui-br" data-role="content">
+                  
+                    <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-focus " type="email" id="userID" name="userID" placeholder="Username/email" autofocus="true">
+                    <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset " type="password" id="userPsw" name="userPassword" placeholder="User Password">
                 </div><!-- /content -->
 
 		<div class="ui-footer ui-bar-a" data-role="footer">
