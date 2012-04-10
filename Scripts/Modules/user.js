@@ -13,8 +13,10 @@ define(function(){
             this.getUsername=function(){return username};
             this.getPassword=function(){return password};       
     }
-    user.prototype.login=function(){
-        //setear username y passwoerd
+    user.prototype.login=function(userid, userpws){
+        this.setUsername(userid);
+        this.setPassword(userpws);
+        console.log(this.getUsername()+" "+this.getPassword());
         //establecer connection
      }
 })
