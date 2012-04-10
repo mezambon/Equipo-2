@@ -5,8 +5,8 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta charset="UTF-8&quot;">
 	<link href="css/jquery.mobile-1.0.1.css" rel="stylesheet">
-        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.1.0-rc.2/jquery.mobile-1.1.0-rc.2.min.js"></script>
+        <script data-main="Scripts/main.js" src="Scripts/js/require.js"></script>
+
 	<title>Twitter API</title>
 </head>
 
@@ -18,9 +18,14 @@
 			<h1 class="ui-title">Twitter Sign-in</h1>
 		</div><!-- /header -->
 
-		<div class="ui-field-contain ui-body ui-br" data-role="content">                   
-                    <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-focus " type="email" id="userID" name="userID" placeholder="Username/email" autofocus="true">
-                    <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset " type="password" id="userPsw" name="userPassword" placeholder="User Password">
+		<div class="ui-field-contain ui-body ui-br" data-role="content">
+                    <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br center">
+                        <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset ui-focus center" type="email" id="userID" name="userID" placeholder="Username/email" autofocus="true">
+                    </div>
+                    <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br center">
+                        <input class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset center" type="password" id="userPsw" name="userPassword" placeholder="User Password">
+                    </div>
+                    
                 </div><!-- /content -->
 
 		<div class="ui-footer ui-bar-a" data-role="footer">
