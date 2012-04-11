@@ -4,7 +4,7 @@
  */
 define(["underscore", "backbone"],
     function(_, Backbone){
-        var User= Backbone.Model.extend({
+        var User = Backbone.Model.extend({
             defaults: function(){
                 return{
                     username: 'juan',
