@@ -14,7 +14,7 @@ require([
     'jquery'
     ],
     function(tweet,user){
-        $("#loginBtt").click(function(){   
+        $("#loginBtn").click(function(){   
             var param=$("#userID").val();
             $("#errorMsg").html(param);                
         }); 
