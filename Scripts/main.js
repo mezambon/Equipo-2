@@ -1,22 +1,20 @@
 require.config({
         paths : {
+            jquery : 'js/jquery-jqmobile',
             underscore : 'js/underscore',
-            backbone : 'js/backbone',
-            jquery : 'js/jquery-jqmobile'
+            backbone : 'js/backbone'            
         }
 });
 
 require([
-    'Modules/tweet',
     'Modules/user',
+    'jquery',
     'underscore',
-    'backbone',
-    'jquery'
+    'backbone'
     ],
-    function(tweet,user){
+    function(user){
         $("#loginBtn").click(function(){   
             var param=$("#userID").val();
             $("#errorMsg").html(param);                
         }); 
-    
 });

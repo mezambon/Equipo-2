@@ -22,8 +22,8 @@
 		<div class="ui-field-contain ui-body ui-br" data-role="content">
 			<div class="ui-field-contain ui-body ui-br" data-role=
 			"fieldcontain">
-                            <button data-icon="myapp-tw" data-theme="b" data-iconpos="right" id="twitterBtn">Log In</button>
-			</div>
+                            <a id="twitterBtn" class="ui-btn-text ui-btn-down-b" data-role="button">Log in</a>
+                        </div>
                     
 		</div><!-- /content -->
 

@@ -1868,12 +1868,3 @@ span.ui-slider-label { width: 100%; position: absolute;height: 32px;  font-size:
 span.ui-slider-label-a { left: -100%;  margin-right: -1px }
 span.ui-slider-label-b { right: -100%;  margin-left: -1px }
 
-.ui-icon-myapp-tw {
-    background: url("http://www.idsketching.com/img/twitter_icon2.png") no-repeat rgba(0, 0, 0, 0.4) !important;
-}​
-.center{
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-   
-}
