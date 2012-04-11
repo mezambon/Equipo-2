@@ -7,8 +7,8 @@ define(["underscore", "backbone"],
         var User= Backbone.Model.extend({
             defaults: function(){
                 return{
-                    username: '',
-                    password: '',
+                    username: 'juan',
+                    password: 'juan',
                     connection: null
                 };
             },
@@ -25,18 +25,24 @@ define(["underscore", "backbone"],
             },
             clear: function(){
                 this.destroy();
+            },
+            signIn: function(){
+                $.ajax({
+                    type:'POST',
+                    url: "http://g2.bootcamp.dev.globant.com/api/service/RequestToken.php",
+                    data: {oauth_callback: 'http://g2.bootcamp.dev.globant.com/'}
+                    })   
             }
             
         })
         return User;
 });
 
-    /*user.prototype.login=function(userid, userpws){
-        this.setUsername(userid);
-        this.setPassword(userpws);
-        console.log(this.getUsername()+" "+this.getPassword());
-        //establecer connection
-     }*/
+//Backbone.Model.prototype.signin=function(){
+//    //document.bgColor = 'red';
+//    
+//} 
+
         
 
 
