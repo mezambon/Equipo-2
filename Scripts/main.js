@@ -7,13 +7,13 @@ require.config({
 });
 
 require([
-    'Modules/tweet',
-    'Modules/user',
+    'Modules/Tweet',
+    'Modules/User',
     'underscore',
     'backbone',
     'jquery'
     ],
-    function(tweet,user){
+    function(Tweet,User){
         $("#loginBtt").click(function(){   
             var param=$("#userID").val();
             $("#errorMsg").html(param);                
