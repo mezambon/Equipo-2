@@ -12,10 +12,12 @@ define(['underscore', 'backbone'],
                 url = "/../api/service/UserCredentials.php";
                 $.getJSON(url,function(json){
                 if (json.user_id)
-                    $(location).attr('href',"#dashboard");
+                    changePage("#dashboard");
                 else
-                    $(location).attr('href',"#homepage");
+                    changePage("#homepage");
                 });
+                
+               
             },
             dashboard: function(){
                 alert("dashboard");
