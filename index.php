@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-
 <html>
 <head>
 	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<meta charset="UTF-8&quot;">
 	<link href="css/jquery.mobile-1.0.1.css" rel="stylesheet">
-	<script data-main="Scripts/main.js" src="Scripts/js/require.js"></script>
+        
+	<script data-main="js/main.js" src="js/js/require.js"></script>
 
 	<title>Twitter API</title>
 </head>
 
-<body class="ui-mobile-viewport ui-overlay-c">
+<body>
 	
         <div class="ui-page ui-body-c ui-page-active" id="pageLogin" data-role="page" data-url=
 	"/test/docs/pages/page-template.html" style="min-height: 450px;" tabindex=

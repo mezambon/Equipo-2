@@ -1,7 +1,3 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 define(["underscore", "backbone"],
     function(_, Backbone){
         var User = Backbone.Model.extend({
