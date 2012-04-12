@@ -1,15 +1,14 @@
 require.config({
         paths : {
-            jquery : 'jquery',
-            jqueryMob : 'lib/jquery-jqmobile',
+            jquery : 'lib/jquery-jqmobile',
             underscore : 'lib/underscore',
             backbone : 'lib/backbone'
                       
         }
 });
 
-require(["order!jquery","order!jqueryMob","order!underscore", "order!backbone", "models/user"],
-    function(jquery, jqueryMob, underscore, backbone, user){
+require(["jquery","order!underscore", "order!backbone", "models/user"],
+    function(jquery, underscore, backbone, user){
        /* $("#loginBtn").click(function(){
             
             var param=$("#userID").val();
