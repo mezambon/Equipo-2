@@ -1,6 +1,6 @@
-define(["underscore", "backbone"],
-    function(_, Backbone){
-        var User = Backbone.Model.extend({
+define(['underscore', 'backbone'],
+    function(_, backbone){
+        var user = backbone.Model.extend({
             defaults: function(){
                 return{
                     username: 'juan',
@@ -31,7 +31,7 @@ define(["underscore", "backbone"],
             }
             
         })
-        return User;
+        return user;
 });
 
 //Backbone.Model.prototype.signin=function(){
