@@ -13,14 +13,14 @@
 
 <body>
     
-    <div data-role="page" data-theme="b" id="homepage">
-            <header data-role="header">  
+    <div data-role="page" id="homepage">
+            <header data-theme="b" data-role="header">  
                 
                 <h1>jQuery Mobile</h1> 
-                <a href="#loginpage" >Next</a>
+                <a href="#loginpage" class="ui-btn-right">Next</a>
             </header>
             <div data-role="content">
-                <h1>welcome to the HOMEPAGE</h1>
+                <h1>welcome to Twitter Aplication</h1>
               
             </div>
             <div data-theme="b" data-role="footer">
@@ -28,35 +28,35 @@
             </div><!-- /footer -->
 	</div>	
                     
-        <div data-role="page" data-theme="b" id="loginpage">
-		<div  data-role="header">
+        <div data-role="page" id="loginpage">
+		<div data-theme="b" data-role="header">
                         <a href="#homepage" >Back</a>
 			<h1 >Twitter Log-in</h1>
-                        <a href="#dashboard" >Next</a>
+                        <a href="#dashboard" class="ui-btn-right">Next</a>
 		</div><!-- /header -->
 
 		<div  data-role="content">
-			<a data-role="button" href=
+			<a data-role="button" data-theme="b" href=
 			"api/service/RequestToken.php" id="loginBtn" rel="external">Log
 			in</a>
 		</div><!-- /content -->
 
-		<div  data-role="footer">
+		<div  data-theme="b" data-role="footer">
 			<h4 > Bootcamp HTML5 - Final Project</h4>
 		</div><!-- /footer -->
 	</div>	
     
-        <div data-role="page" data-theme="b" id="dashboard">
-		<div data-role="header">
+        <div data-role="page" id="dashboard">
+		<div data-theme="b" data-role="header">
 			<h1>Twitter</h1>
-                        <a href="#homepage">Homepage</a>
+                        <a href="#homepage" class="ui-btn-right">Homepage</a>
 		</div><!-- /header -->
 
 		<div data-role="content">
-                    <p>Hola mundo</p>
+                    <h1>WELCOME TO THE DASHBOARD</h1>
 		</div><!-- /content -->
 
-		<div data-role="footer">
+		<div data-theme="b" data-role="footer">
 			<h4> Bootcamp HTML5 - Final Project</h4>
 		</div><!-- /footer -->
 	</div>	
