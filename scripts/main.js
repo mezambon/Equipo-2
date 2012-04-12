@@ -8,7 +8,7 @@ require.config({
 });
 
 require(["jquery","underscore", "backbone", "models/user", "routers/appRouter"],
-    function(jquery, underscore, backbone, user){
+    function(jquery, underscore, backbone, user, appRouter){
        /* $("#loginBtn").click(function(){
             
             var param=$("#userID").val();
@@ -26,4 +26,6 @@ require(["jquery","underscore", "backbone", "models/user", "routers/appRouter"],
                 oauth_callback: 'http://g2.bootcamp.dev.globant.com'
             });    
         });*/
+        router = new appRouter();
+        backbone.history.start();
 });
