@@ -5,7 +5,7 @@
 	<meta charset="UTF-8&quot;">
 	<link href="css/jquery.mobile-1.0.1.css" rel="stylesheet">
         
-	<script data-main="js/main.js" src="js/js/require.js"></script>
+	<script data-main="scripts/main" src="scripts/require.js"></script>
 
 	<title>Twitter API</title>
 </head>
