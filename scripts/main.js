@@ -21,8 +21,9 @@ require(["order!jquery","order!jqueryMob","order!underscore", "order!backbone", 
             event.preventDefault();
             $.ajax({
                 type:'POST',
-                url: "http://g2.bootcamp.dev.globant.com/api/service/RequestToken.php",               
-                data: {oauth_callback: 'http://g2.bootcamp.dev.globant.com/'}
+                
+                url: "api/lib/twitteroauth/twitteroauth.php",               
+                data: {service:'requestTokenURL', params:{oauth_callback: 'http://g2.bootcamp.dev.globant.com'}}
             });    
         });
 });
