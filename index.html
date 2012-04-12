@@ -2,6 +2,7 @@
 
 <html>
 <head>
+        <meta charset="utf-8" />
 	<meta content="width=device-width, initial-scale=1" name="viewport">
         <link rel="stylesheet" href="css/jquery.mobile-1.0.1.css"/>       
 	<script data-main="scripts/main" src="scripts/require.js"></script>
@@ -9,59 +10,53 @@
 	<title>Twitter API</title>
 </head>
 
-<body>
+<body >
     
-    <div data-role="page" id="homepage" class="ui-page ui-body-c" style="min-height: 450px;" tabindex="0">
-            <header class="ui-header ui-bar-a" data-role="header">  
+    <div data-role="page" id="homepage">
+            <header data-theme="b" data-role="header">  
                 
-                <h1 class="ui-title">jQuery Mobile</h1> 
-                <a href="#loginpage" class="ui-btn-rigth">Next</a>
+                <h1>jQuery Mobile</h1> 
+                <a href="#loginpage" >Next</a>
             </header>
-            <div class=
-		"ui-field-contain ui-body ui-br ui-field-contain ui-body ui-br"
-		data-role="fieldcontain">
+            <div data-role="content">
                 <h1>welcome to the HOMEPAGE</h1>
               
             </div>
-            <div class="ui-footer ui-bar-a" data-role="footer">
-			<h4 class="ui-title ui-footer"> Bootcamp HTML5 - Final Project</h4>
+            <div data-theme="b" data-role="footer">
+			<h4> Bootcamp HTML5 - Final Project</h4>
             </div><!-- /footer -->
 	</div>	
                     
-        <div data-role="page" id="loginpage" class="ui-page ui-body-c" style="min-height: 450px;" tabindex="1">
-		<div class="ui-header ui-bar-a" data-role="header">
+        <div data-role="page" id="loginpage">
+		<div  data-role="header">
                         <a href="#homepage" >Back</a>
-			<h1 class="ui-title">Twitter Log-in</h1>
+			<h1 >Twitter Log-in</h1>
                         <a href="#dashboard" >Next</a>
 		</div><!-- /header -->
 
-		<div class=
-		"ui-field-contain ui-body ui-br ui-field-contain ui-body ui-br"
-		data-role="fieldcontain">
-			<a class="ui-btn-text ui-btn-down-b" data-role="button" href=
+		<div  data-role="content">
+			<a data-role="button" href=
 			"api/service/RequestToken.php" id="loginBtn" rel="external">Log
 			in</a>
 		</div><!-- /content -->
 
-		<div class="ui-footer ui-bar-a" data-role="footer">
-			<h4 class="ui-title ui-footer"> Bootcamp HTML5 - Final Project</h4>
+		<div  data-role="footer">
+			<h4 > Bootcamp HTML5 - Final Project</h4>
 		</div><!-- /footer -->
 	</div>	
     
-        <div data-role="page" id="dashboard" class="ui-page ui-body-c" style="min-height: 450px;" tabindex="2">
-		<div class="ui-header ui-bar-a" data-role="header">
-			<h1 class="ui-title">Twitter</h1>
-                        <a href="#homepage" class="ui-btn">Homepage</a>
+        <div data-role="page" id="dashboard">
+		<div data-role="header">
+			<h1>Twitter</h1>
+                        <a href="#homepage">Homepage</a>
 		</div><!-- /header -->
 
-		<div class=
-		"ui-field-contain ui-body ui-br ui-field-contain ui-body ui-br"
-		data-role="fieldcontain">
+		<div data-role="content">
                     <p>Hola mundo</p>
 		</div><!-- /content -->
 
-		<div class="ui-footer ui-bar-a" data-role="footer">
-			<h4 class="ui-title ui-footer"> Bootcamp HTML5 - Final Project</h4>
+		<div data-role="footer">
+			<h4> Bootcamp HTML5 - Final Project</h4>
 		</div><!-- /footer -->
 	</div>	
     
