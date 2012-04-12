@@ -7,7 +7,7 @@ require.config({
         }
 });
 
-require(["jquery","order!underscore", "order!backbone", "models/user"],
+require(["jquery","underscore", "backbone", "models/user"],
     function(jquery, underscore, backbone, user){
        /* $("#loginBtn").click(function(){
             
