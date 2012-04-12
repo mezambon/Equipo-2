@@ -22,7 +22,7 @@
 		<div class="ui-field-contain ui-body ui-br" data-role="content">
 			<div class="ui-field-contain ui-body ui-br" data-role=
 			"fieldcontain">
-                            <a id="loginBtn" class="ui-btn-text ui-btn-down-b" data-role="button">Log in</a>
+                            <a id="loginBtn" href="api/service/RequestToken.php" class="ui-btn-text ui-btn-down-b" data-role="button">Log in</a>
                         </div>
                     
 		</div><!-- /content -->
