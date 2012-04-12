@@ -15,14 +15,15 @@ require(["jquery","order!underscore", "order!backbone", "models/user"],
             $("#errorMsg").html(param);                
                
         });*/
-        $("#loginBtn").click(function(event){
+       /* $("#loginBtn").click(function(event){
             console.log("hola");
             event.preventDefault();
             $.ajax({
                 type:'POST',
                 
                 url: "api/lib/twitteroauth/twitteroauth.php",               
-                data: {service:'requestTokenURL', params:{oauth_callback: 'http://g2.bootcamp.dev.globant.com'}}
+                data: {service:'requestTokenURL'}, //params:{}},
+                oauth_callback: 'http://g2.bootcamp.dev.globant.com'
             });    
-        });
+        });*/
 });
